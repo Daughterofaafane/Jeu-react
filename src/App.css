@@ -1,0 +1,43 @@
+h2{
+  color: rgb(209, 6, 6);
+}
+
+.livres{
+  display: flex;
+}
+
+.livre{
+  padding: 1em;
+}
+.livre p, .livre h3{
+  text-align: center;
+}
+
+.jeu p{
+  color: green;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.jeu{
+  width: 50%;
+  margin: 100px;
+  border: 1px solid;
+  justify-items: center;
+  justify-content: center;
+  padding: 20px 0px 20px 50px;
+}
+
+.jeu button{
+  padding: 10px 15px 10px 15px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.jeu button:hover{
+  letter-spacing: 0.1rem;
+  background-color: red;
+
+}
