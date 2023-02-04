@@ -15,7 +15,7 @@ class Jeux extends React.Component {
     //   this.setState({fin: this.state.fin = true})
     // }
   }
-
+  // initialiser = ()=>{}
   initialiser() {
     this.setState({ face: null, compteur: 0, fin: false });
   }
@@ -41,14 +41,9 @@ class Jeux extends React.Component {
           <div><p>Bravo vous avez trouvez la face cachée</p>
           <button onClick={() => this.initialiser()}>initialiser</button></div> : <button onClick={() => this.jouer()}>jouer</button>
         }
-
-        
         {/* <button {...(this.state.face == this.props.nombre) ? {onClick:() => {this.initialiser()} : ""} >initialiser</button> */}
       </div>
     );
   }
 }
-
-
-
 export default Jeux;
